@@ -1,11 +1,8 @@
-import copy
-fruits = ['apples', 'oranges', 'strawberries', 'kiwi', 'grapes']
-print(fruits)
+import keyboard
 
-my_fruits_copy = copy.deepcopy(fruits)
+print("Press Enter to capture...")
 
-my_fruits_copy.append('bananas')
-print('\nAdding Bananas to ou deep copied list')
-print(f'Fruits = {fruits}')
-print(f'My fruits = {my_fruits_copy}\n')
-print(fruits)
+# Wait for the Enter key to be pressed
+keyboard.wait('enter')
+
+print("Enter key was pressed!")
