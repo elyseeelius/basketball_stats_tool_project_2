@@ -21,9 +21,9 @@ def clean_data():
     return cleaned_players
 
 
-
-
-clean_data()
+# if __name__ == "__main__":
+if __name__ == "__main__":
+    clean_data()
 
 
 def balance_teams():
@@ -51,7 +51,7 @@ def play_game():
         if option == 'b':
             break
         else:
-            print("Please enter A or B")
+            print("Please enter A or B or C")
             continue
 
     if option == 'a':
